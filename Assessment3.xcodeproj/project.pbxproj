@@ -7,27 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B68F6301CAED9B000B18B41 /* CatOwner+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B68F62D1CAED9B000B18B41 /* CatOwner+CoreDataProperties.m */; };
+		7B68F6311CAED9B000B18B41 /* CatOwner.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B68F62F1CAED9B000B18B41 /* CatOwner.m */; };
+		7B68F6361CAEED7400B18B41 /* Cat+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B68F6331CAEED7400B18B41 /* Cat+CoreDataProperties.m */; };
+		7B68F6371CAEED7400B18B41 /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B68F6351CAEED7400B18B41 /* Cat.m */; };
 		981556131C56AB900028DA8A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 981556121C56AB900028DA8A /* main.m */; };
 		981556161C56AB900028DA8A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 981556151C56AB900028DA8A /* AppDelegate.m */; };
 		981556191C56AB900028DA8A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 981556181C56AB900028DA8A /* ViewController.m */; };
-		9815561C1C56AB900028DA8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9815561A1C56AB900028DA8A /* Main.storyboard */; };
 		9815561F1C56AB900028DA8A /* Assessment3.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9815561D1C56AB900028DA8A /* Assessment3.xcdatamodeld */; };
 		981556211C56AB900028DA8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 981556201C56AB900028DA8A /* Assets.xcassets */; };
 		981556241C56AB900028DA8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 981556221C56AB900028DA8A /* LaunchScreen.storyboard */; };
+		9815562C1C56AC910028DA8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9815562B1C56AC910028DA8A /* Main.storyboard */; };
+		9815562F1C56ACB90028DA8A /* CatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9815562E1C56ACB90028DA8A /* CatsViewController.m */; };
+		981556321C56ACCA0028DA8A /* AddCatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 981556311C56ACCA0028DA8A /* AddCatViewController.m */; };
+		981556341C56B12C0028DA8A /* catowners.plist in Resources */ = {isa = PBXBuildFile; fileRef = 981556331C56B12C0028DA8A /* catowners.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7B68F62C1CAED9B000B18B41 /* CatOwner+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CatOwner+CoreDataProperties.h"; sourceTree = "<group>"; };
+		7B68F62D1CAED9B000B18B41 /* CatOwner+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CatOwner+CoreDataProperties.m"; sourceTree = "<group>"; };
+		7B68F62E1CAED9B000B18B41 /* CatOwner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatOwner.h; sourceTree = "<group>"; };
+		7B68F62F1CAED9B000B18B41 /* CatOwner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatOwner.m; sourceTree = "<group>"; };
+		7B68F6321CAEED7400B18B41 /* Cat+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Cat+CoreDataProperties.h"; sourceTree = "<group>"; };
+		7B68F6331CAEED7400B18B41 /* Cat+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Cat+CoreDataProperties.m"; sourceTree = "<group>"; };
+		7B68F6341CAEED7400B18B41 /* Cat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
+		7B68F6351CAEED7400B18B41 /* Cat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
 		9815560E1C56AB900028DA8A /* Assessment3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assessment3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		981556121C56AB900028DA8A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		981556141C56AB900028DA8A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		981556151C56AB900028DA8A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		981556171C56AB900028DA8A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		981556181C56AB900028DA8A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		9815561B1C56AB900028DA8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9815561E1C56AB900028DA8A /* Assessment3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Assessment3.xcdatamodel; sourceTree = "<group>"; };
 		981556201C56AB900028DA8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		981556231C56AB900028DA8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		981556251C56AB900028DA8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9815562B1C56AC910028DA8A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		9815562D1C56ACB90028DA8A /* CatsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatsViewController.h; sourceTree = "<group>"; };
+		9815562E1C56ACB90028DA8A /* CatsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatsViewController.m; sourceTree = "<group>"; };
+		981556301C56ACCA0028DA8A /* AddCatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddCatViewController.h; sourceTree = "<group>"; };
+		981556311C56ACCA0028DA8A /* AddCatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddCatViewController.m; sourceTree = "<group>"; };
+		981556331C56B12C0028DA8A /* catowners.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = catowners.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +64,14 @@
 		981556051C56AB900028DA8A = {
 			isa = PBXGroup;
 			children = (
+				7B68F6321CAEED7400B18B41 /* Cat+CoreDataProperties.h */,
+				7B68F6331CAEED7400B18B41 /* Cat+CoreDataProperties.m */,
+				7B68F6341CAEED7400B18B41 /* Cat.h */,
+				7B68F6351CAEED7400B18B41 /* Cat.m */,
+				7B68F62C1CAED9B000B18B41 /* CatOwner+CoreDataProperties.h */,
+				7B68F62D1CAED9B000B18B41 /* CatOwner+CoreDataProperties.m */,
+				7B68F62E1CAED9B000B18B41 /* CatOwner.h */,
+				7B68F62F1CAED9B000B18B41 /* CatOwner.m */,
 				981556101C56AB900028DA8A /* Assessment3 */,
 				9815560F1C56AB900028DA8A /* Products */,
 			);
@@ -62,12 +90,17 @@
 			children = (
 				981556141C56AB900028DA8A /* AppDelegate.h */,
 				981556151C56AB900028DA8A /* AppDelegate.m */,
+				9815562B1C56AC910028DA8A /* Main.storyboard */,
 				981556171C56AB900028DA8A /* ViewController.h */,
 				981556181C56AB900028DA8A /* ViewController.m */,
-				9815561A1C56AB900028DA8A /* Main.storyboard */,
+				9815562D1C56ACB90028DA8A /* CatsViewController.h */,
+				9815562E1C56ACB90028DA8A /* CatsViewController.m */,
+				981556301C56ACCA0028DA8A /* AddCatViewController.h */,
+				981556311C56ACCA0028DA8A /* AddCatViewController.m */,
 				981556201C56AB900028DA8A /* Assets.xcassets */,
 				981556221C56AB900028DA8A /* LaunchScreen.storyboard */,
 				981556251C56AB900028DA8A /* Info.plist */,
+				981556331C56B12C0028DA8A /* catowners.plist */,
 				9815561D1C56AB900028DA8A /* Assessment3.xcdatamodeld */,
 				981556111C56AB900028DA8A /* Supporting Files */,
 			);
@@ -139,9 +172,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9815562C1C56AC910028DA8A /* Main.storyboard in Resources */,
+				981556341C56B12C0028DA8A /* catowners.plist in Resources */,
 				981556241C56AB900028DA8A /* LaunchScreen.storyboard in Resources */,
 				981556211C56AB900028DA8A /* Assets.xcassets in Resources */,
-				9815561C1C56AB900028DA8A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,24 +186,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B68F6311CAED9B000B18B41 /* CatOwner.m in Sources */,
 				981556191C56AB900028DA8A /* ViewController.m in Sources */,
+				981556321C56ACCA0028DA8A /* AddCatViewController.m in Sources */,
 				9815561F1C56AB900028DA8A /* Assessment3.xcdatamodeld in Sources */,
+				7B68F6371CAEED7400B18B41 /* Cat.m in Sources */,
+				7B68F6361CAEED7400B18B41 /* Cat+CoreDataProperties.m in Sources */,
 				981556161C56AB900028DA8A /* AppDelegate.m in Sources */,
+				7B68F6301CAED9B000B18B41 /* CatOwner+CoreDataProperties.m in Sources */,
 				981556131C56AB900028DA8A /* main.m in Sources */,
+				9815562F1C56ACB90028DA8A /* CatsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9815561A1C56AB900028DA8A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9815561B1C56AB900028DA8A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		981556221C56AB900028DA8A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -302,6 +334,7 @@
 				9815562A1C56AB900028DA8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
